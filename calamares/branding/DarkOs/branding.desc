@@ -1,0 +1,28 @@
+---
+componentName:  DarkOs
+
+strings:
+    productName:         "DarkOs Linux"
+    shortProductName:    DarkOs
+    version:             "9x1" 
+    shortVersion:        "9x1"
+    versionedName:       DarkOs Linux "One Hell"
+    shortVersionedName:  DarkOS
+    bootloaderEntryName: DarkOs
+    productUrl:          https://darkos-arch.sourceforge.io
+    supportUrl:          https://darkos-arch.sourceforge.io
+    knownIssuesUrl:      https://darkos-arch.sourceforge.io
+    releaseNotesUrl:     https://darkos-arch.sourceforge.io
+
+images:
+    productLogo:         "squid.png"
+    productIcon:         "dark.png"
+    productWelcome:      "welcome-1.png"
+
+slideshow:               "show.qml"
+slideshowAPI: 2
+
+style:
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#008cff"

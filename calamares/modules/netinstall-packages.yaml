@@ -1,0 +1,29 @@
+- name: "Drivers"
+  description: "Nvidia Drivers And Microcode"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - nvidia
+    - nvidia-settings
+    - nvidia-utils
+    - cuda
+    - intel-ucode
+    - amd-ucode
+- name: "Kde Extra"
+  description: "Kde Extra"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - kde-accessibility-meta
+    - kdeconnect
+    - kdenetwork-filesharing
+    - kde-education-meta
+    - kde-games-meta
+    - kde-graphics-meta
+    - kde-multimedia-meta
+    - kde-network-meta
+    - kde-pim-meta
+    - kde-sdk-meta
+    - kde-webdev-meta
